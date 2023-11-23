@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Konfirmasi Pemesanan</title>
+    
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 150px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="PO Herfindo.html">Menu</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="OurService.html">Our Services</a></li>
+            <li><a href="#">Career</a></li>
+            
+        </ul>
+    </nav>
+
+    <header>
+        <img src="Logo1.png" alt="HERFINDO RAYA UTAMA">
+        <h1>PO HERFINDO RAYA UTAMA<br>
+            <i>"Best Partnership to Enjoy Your Travel"</i></h1>
+        <hr>
+    </header>
+
+    <div class="container">
+        <h2>Konfirmasi Pemesanan</h2>
+        <form action="proses_pemesanan.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="titik_penjemputan">Titik Penjemputan:</label>
+            <input type="text" id="titik_penjemputan" name="titik_penjemputan" required>
+
+            <label for="tujuan">Tujuan:</label>
+            <input type="text" id="tujuan" name="tujuan" required>
+
+            <label for="tanggal_penjemputan">Tanggal Penjemputan:</label>
+            <input type="date" id="tanggal_penjemputan" name="tanggal_penjemputan" required>
+
+            <label for="tanggal_selesai">Tanggal Selesai:</label>
+            <input type="date" id="tanggal_selesai" name="tanggal_selesai" required>
+
+            <button type="submit">Konfirmasi Pemesanan</button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p><b>PO HERFINDO RAYA UTAMA<br>
+        <i>Head Office</i> : Kedungwiyu, Kandangan, Temanggung 56281<br>
+        Phone : +6285878705170<b><br>
+        &copy; 2023</p>
+</footer>
+</html>

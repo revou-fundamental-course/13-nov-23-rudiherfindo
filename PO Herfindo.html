@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sewa Bus Pariwisata | PO Herfindo Raya
+    </title>
+</head>
+<script>
+    function confirmOrder() {
+        // Tampilkan konfirmasi
+        var isConfirmed = confirm("Apakah Anda yakin akan menggunakan layanan kami?");
+
+        // Periksa jawaban
+        if (isConfirmed) {
+            // Jika jawaban ya, lanjut ke OurService.html
+            window.location.href = "OurService.html";
+        } else {
+            // Jika jawaban tidak, tetap di PO Herfindo.html
+            // Tidak perlu tindakan karena pengguna memilih untuk tidak melanjutkan
+        }
+    }
+</script>
+<body>
+    <nav>
+        <ul>
+            <li><a href="PO Herfindo.html">Menu</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="OurService.html">Our Services</a></li>
+            <li><a href="#">Career</a></li>
+            
+        </ul>
+    </nav>
+
+    <header>
+        <img src="Logo1.png" alt="HERFINDO RAYA UTAMA">
+        <h1>PO HERFINDO RAYA UTAMA<br>
+            <i>"Best Partnership to Enjoy Your Travel"</i></h1>
+        <hr>
+    </header>
+
+<section id="Menu">
+    <br>
+    <article class="bus-item">
+        <img src="GTMP.jpg" alt="Grand Tourismo by Morodadi Prima" style="animation: ease;">
+        <h1>Unit Elegan & Berkelas</h1>
+        <p>Kami menyiapkan unit sesuai dengan kebutuhan Anda. Terdapat berbagai pilihan unit yang tersedia. Untuk perjalanan wisata, keluarga hingga untuk kebutuhan bisnis atau korporat.
+            Rasakan kenyamanan perjalanan dengan PO. HERFINDO RAYA UTAMA.</p>
+        <p class="price"><b>Start from Rp 2.000.000,-/hari</b></p>
+        <button onclick="confirmOrder()" class="order-now">Order Now</button>
+        
+    </article>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+        
+<article class="Partnership">
+        <h1>Our Partnership</h1>
+        <p>Untuk berkontribusi terhadap perubahan positif dan mencapai tujuan keberlanjutan, kami bermitra dengan banyak organisasi yang luar biasa.
+            Keahlian mereka memungkinkan kami untuk melakukan jauh lebih banyak, gairah dan nama besar mereka menginspirasi kami.
+            Kebanggaan kami untuk memperkenalkan Anda kepada beberapa organisasi yang prestasi dan komitmennya tidak diragukan lagi.</p>
+        <img src="logo laksana.png" alt="Logo Laksana">
+        <img src="hino.png" alt="Logo Hino" href="hino.web.id">
+        <img src="scania.png" alt="Logo Scania"><br>
+        <br>
+        <br>
+        <br>
+</article>
+    
+
+</section>
+</body>
+
+<footer>
+    <p><b>PO HERFINDO RAYA UTAMA<br>
+        <i>Head Office</i> : Kedungwiyu, Kandangan, Temanggung 56281<br>
+        Phone : +6285878705170<b><br>
+        &copy; 2023</p>
+</footer>
+</html>
